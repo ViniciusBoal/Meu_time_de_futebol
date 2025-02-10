@@ -5,7 +5,9 @@
 }
 header,
 li a,
-h2
+h2,
+h3,
+form input
 {
 
     font-family: 'Bungee', serif;
@@ -38,7 +40,8 @@ header{
 }
 
 header .container,
-#about .container{
+#about .container, 
+.container h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,10 +68,32 @@ button{
     display: block;
     width: 320px;
 }
-.logos li img{
+.logos img{
     height: 30px; 
     display: inline;
 }
+form button{
+ background-color: black;
+ color: white;
+ height: 40px;
+}
+form input,
+form textarea,
+form button{
+    padding: 16px 0;
+    display: block;
+    width: 320px;
+}
+.container h3{
+    display: inline;
+    justify-content: space-between;
     
+}
+#contato .container{
+    display: block;
+}
+.metodos-de-contato{
+    display: flex;
+}
 
 
