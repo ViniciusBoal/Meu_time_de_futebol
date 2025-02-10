@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0 ;
+}
+header,
+li a,
+h2
+{
+
+    font-family: 'Bungee', serif;
+    font-weight: 400;
+    font-style: normal;
+      
+} 
+header{
+     background-color: black;
+     color: white;
+     padding: 16px 0;
+    
+ }
+.container li a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-left: 16px;
+    
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+#about .container img{
+    height: 600px;
+    padding: 0 16px 0 0;
+
+}
+
+header .container,
+#about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container p{
+
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 8px;
+      
+}
+#about .container h2
+ {
+    margin-bottom: 32px;
+    margin-left: 8px;
+}
+form textarea{
+    resize: none;
+}
+form input,
+form textarea,
+button{
+    display: block;
+    width: 320px;
+}
+.logos li img{
+    height: 30px; 
+    display: inline;
+}
+    
+
+
